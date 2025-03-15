@@ -95,7 +95,7 @@ function perder() {
 }
 
 function ganar() {
-  document.body.innerHTML = `<div id="estrellaVictoria">⭐</div>`;
+  document.body.innerHTML = `<div id="estrellaVictoria">🌙</div>`;
   document.removeEventListener("keydown", mover);
 }
 
