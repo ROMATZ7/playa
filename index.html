@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>playa</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pirata en la Bruma</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="instrucciones">
+    <h1>🏴‍☠️ Pirata en la Bruma</h1>
+    <p>Explora la isla misteriosa, evita a los 🐙 pulpos y encuentra tu 🚢 barco.</p>
+    <ul>
+      <li>👨 Solo puedes ver una celda a la vez.</li>
+      <li>🐙 Cuidado con los pulpos ocultos.</li>
+      <li>🚢 Encuentra tu barco para ganar.</li>
+      <li>❤️ Tienes 3 vidas.</li>
+    </ul>
+    <button id="empezar">Empezar</button>
+  </div>
+
+  <div id="juego">
+    <div id="vidas"></div>
+
+    <div class="marco-mago">
+      <div id="celda-visible">👨</div>
+    </div>
+
+    <div id="pista"></div>
+    <div id="resultado"></div>
+    <button id="reiniciar">Reiniciar</button>
+
+    <div id="controles">
+      <button onclick="moverDireccion('ArrowUp')">⬆️</button><br />
+      <button onclick="moverDireccion('ArrowLeft')">⬅️</button>
+      <button onclick="moverDireccion('ArrowDown')">⬇️</button>
+      <button onclick="moverDireccion('ArrowRight')">➡️</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>

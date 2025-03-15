@@ -1,0 +1,116 @@
+body {
+  background: #111;
+  color: #eee;
+  font-family: 'Courier New', monospace;
+  text-align: center;
+  padding: 20px;
+}
+
+#instrucciones {
+  text-align: center;
+  padding: 30px;
+  background: #111;
+  min-height: 100vh;
+}
+
+#instrucciones h1 {
+  color: #bada55;
+  font-size: 28px;
+}
+
+#instrucciones ul {
+  margin-top: 20px;
+  font-size: 18px;
+  line-height: 1.8em;
+}
+
+#empezar {
+  margin-top: 30px;
+  padding: 12px 24px;
+  font-size: 18px;
+  background-color: #44c767;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#juego {
+  display: none;
+  margin-top: 20px;
+}
+
+#vidas {
+  margin-top: 10px;
+  font-size: 20px;
+  color: #ff5050;
+}
+
+.marco-mago {
+  display: inline-block;
+  padding: 40px;
+  background-color: #1a1a1a;
+  border: 4px solid #888;
+  border-radius: 8px;
+  margin: 20px auto;
+}
+
+#celda-visible {
+  font-size: 64px;
+}
+
+#pista {
+  margin-top: 15px;
+  font-size: 18px;
+  color: #80ffea;
+}
+
+#resultado {
+  margin-top: 20px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #ff4d4d;
+}
+
+#reiniciar {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #44c767;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#controles {
+  display: none;
+  margin-top: 20px;
+}
+
+#controles button {
+  font-size: 2rem;
+  margin: 5px;
+  padding: 10px 20px;
+  border-radius: 12px;
+  border: none;
+  background-color: #333;
+  color: #eee;
+}
+
+/* 🌟 Estrella de victoria */
+#estrellaVictoria {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25vw;
+  height: 100vh;
+  background-color: #111;
+  color: gold;
+  animation: brillar 1s infinite alternate;
+}
+
+@keyframes brillar {
+  from { transform: scale(1); opacity: 0.8; }
+  to { transform: scale(1.1); opacity: 1; }
+}
